@@ -23,7 +23,7 @@ for col in collections:
    print "median: ", np.median(a)
    print "meandv: ", np.average([abs(x - np.average(a)) for x in a])
    print "stdv:   ", np.std(a)      
-   print "-"*15
+   print "-"*17
 
 
 #2.5.2
