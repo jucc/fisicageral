@@ -10,9 +10,9 @@
 \usepackage[table,xcdraw]{xcolor}
 \graphicspath{{..//images//}}
 
-\title{Física Geral - Relatório de prática - Lei de Ohm}
+\title{Física Geral - Relatório de prática - Pêndulo simples}
 \author{Juliana Cavalcanti Correa}
-\date{Outubro 2015}
+\date{Dezembro 2015}
 
 
 \begin{document}
@@ -20,25 +20,16 @@
   \maketitle
 
   \section{Introdução}
-  \label{sec:esquema}
+  \label{sec:intro}
     
     \paragraph{}
-    Nesta prática, o objetivo é verificar experimentalmente a Lei de Ohm. No caso de um circuito contendo apenas elementos resistivos dentro da faixa de operação ôhmica, isto é, cuja resistência seja constante, a lei afirma que a razão entre a tensão no circuito e a corrente que circula por ele é dada pela resistência equivalente de seus elementos, ou seja \textbf{$V = R \cdot i$}.
+    Nesta prática, o objetivo é obter uma aproximação do valor local da aceleração da gravidade, g, e de sua incerteza $\sigma_g$ a partir de uma série de medidas do período de um pêndulo simples.
 
-    \begin{figure}[htb!]
-      \centering
-      \captionsetup{justification=centering}  
-      \includegraphics[scale=0.4]{esquemas2.png}
-      \caption{Esquema experimental. Acima, à esquerda, somente um resistor; à direita os dois resistores em paralelo; abaixo, os dois resistores em série.}
-      \label{fig:esquemas}
-    \end{figure}
+    \paragraph{}
+    O pêndulo utilizado foi montado de acordo com a Figura \ref{fig:pendulo}, permitindo que uma massa metálica oscilasse livremente em um plano paralelo a uma mesa, presa por uma linha de massa desprezível a uma haste de ferro montada sobre essa mesa.
     
     \paragraph{}
-    Para essa verificação foram previstos, conforme mostra o esquema experimental na Figura \ref{fig:esquemas}, três arranjos diferentes - um único resistor, dois resistores em série e dois resistores em paralelo.
-    \paragraph{}
-    No arranjo em série, a corrente que atravessa os dois resistores é a mesma, por isso $V = R_{eq} \cdot i = R_{1} \cdot i + R_{2} \cdot i$. Portanto, a resistência equivalente prevista pela Lei de Ohm é a soma das duas resistências.
-    \paragraph{}
-    Já no arranjo em paralelo, a tensão aplicada sobre os dois resistores é a mesma, fazendo com que a corrente se divida entre os dois resistores. Portanto, a corrente total é a soma  das correntes nos dois resistores e a Lei de Ohm prevê que $\frac{V}{R_{eq}} = \frac{V}{R_{1}} + \frac{V}{R_{2}} \Rightarrow R_{eq} = \frac{R_{1} \cdot R_{2}}{R_{1} + R_{2}} $. 
+    A aceleração pode ser derivada do período do pêndulo partindo-se do princípio de conservação de energia, que diz que a diferença de energia potencial no ponto mais alto da trajetória (A) e no ponto mais baixo (B) deve ser igual à diferença de energia cinética nos dois pontos, assumindo que a perda de energia pela resistência do ar e outros fatores é pequena o suficiente para ser desprezada, o que é aproximadamente verdade para ângulos pequenos de oscliação..
 
   \section{Procedimento experimental}
 
